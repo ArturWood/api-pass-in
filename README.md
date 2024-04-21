@@ -87,7 +87,7 @@ Foi adicionado a dependência `springdoc` para facilitar a documentação e visu
 Alem das dependencias para desenvolvimento com Spring Framework - Web, Bean, JPA;<br>
 Links para uso e documentação:
 
-https://github.com/h2database/h2database<br>
+https://hsqldb.org/web/hsqlDocsFrame.html<br>
 https://spring.io/projects/spring-data-jpa<br>
 https://docs.spring.io/spring-boot/docs/current/reference/html/web.html<br>
 http://localhost:8080/swagger-ui/index.html
