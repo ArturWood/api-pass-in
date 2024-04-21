@@ -56,6 +56,104 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Get Event Attendees",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/events/b32d4db8-8b45-43c5-8830-527fbac6efa5/attendees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"events",
+								"b32d4db8-8b45-43c5-8830-527fbac6efa5",
+								"attendees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register Attendee in Event",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Attendee de teste\",\r\n    \"email\": \"teste@teste.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/events/b32d4db8-8b45-43c5-8830-527fbac6efa5/attendees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"events",
+								"b32d4db8-8b45-43c5-8830-527fbac6efa5",
+								"attendees"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Attendees",
+			"item": [
+				{
+					"name": "Get Attendees Badge",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/attendees/03aa51b2-fbf7-4d79-85dd-6c39bdeedca2/badge",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"attendees",
+								"03aa51b2-fbf7-4d79-85dd-6c39bdeedca2",
+								"badge"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check-In",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/attendees/03aa51b2-fbf7-4d79-85dd-6c39bdeedca2/check-in",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"attendees",
+								"03aa51b2-fbf7-4d79-85dd-6c39bdeedca2",
+								"check-in"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
