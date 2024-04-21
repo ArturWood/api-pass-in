@@ -14,7 +14,7 @@ public class SpringDocConfigurations {
         return new OpenAPI()
                 .info(new Info()
                         .title("Pass In API")
-                        .description("API Rest da aplicação Pass In, contendo e as funcionalidades de agendamento e cancelamento de eventos")
+                        .description("API Rest da aplicação Pass In, contendo as funcionalidades de agendamento e cancelamento de eventos e check in de participantes")
                         .contact(new Contact()
                                 .name("Time BackEnd")
                                 .email("backend@4life.com"))
